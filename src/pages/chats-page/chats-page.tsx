@@ -103,6 +103,7 @@ export const ChatsPage = () => {
     handleSubmit(question);
   };
 
+  //Submit form
   const handleSubmit = (predefinedQuestion?: string) => {
     const question = predefinedQuestion || userQuestion;
     if (!question) return;
